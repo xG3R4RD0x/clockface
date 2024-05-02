@@ -1,0 +1,31 @@
+{
+	"name": "clockface",
+	"version": "0.0.1",
+	"private": true,
+	"license": "UNLICENSED",
+	"scripts": {
+		"build": "fitbit-build",
+		"debug": "fitbit"
+	},
+	"devDependencies": {
+		"@fitbit/sdk": "~5.0",
+		"@fitbit/sdk-cli": "^1.7.3"
+	},
+	"fitbit": {
+		"appUUID": "cba22391-dd8c-46a0-a3e1-1e06a6212a37",
+		"appType": "clockface",
+		"appDisplayName": "clockface",
+		"iconFile": "resources/icon.png",
+		"wipeColor": "#8bc34a",
+		"requestedPermissions": [],
+		"buildTargets": [
+			"atlas"
+		],
+		"i18n": {
+			"en-US": {
+				"name": "clockface"
+			}
+		},
+		"defaultLanguage": "en-US"
+	}
+}
